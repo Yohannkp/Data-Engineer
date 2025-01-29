@@ -3,7 +3,7 @@ import Livre
 
 
 class Bibliotheque:
-    def __init__(self,nom,fichier_json = "Bibliotheque.json"):
+    def __init__(self,nom,fichier_json = "Python/Bibliotheque.json"):
         self.nom = nom
         self.livres = [Livre.Livre("Aya de yopougon","Yohann", "16 janvier 2026")]
         self._fichier_json = fichier_json
